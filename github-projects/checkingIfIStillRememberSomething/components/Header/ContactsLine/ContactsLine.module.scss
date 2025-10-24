@@ -1,0 +1,46 @@
+.line {
+  @media screen and (min-width: 991px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 135px;
+
+    height: 40px;
+
+    outline: 1px solid tomato;
+
+    background-color: var(--primaryBackgroundColor);
+  }
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactsUnit {
+  @media screen and (min-width: 991px) {
+    width: 100px;
+    height: 22px;
+
+    outline: 1px solid red;
+    &:first-child {
+      margin-right: 12px;
+    }
+
+    &:last-child {
+      margin-left: 16px;
+    }
+  }
+}
+
+.languages {
+  @media screen and (min-width: 991px) {
+    width: 100px;
+    height: 22px;
+
+    outline: 1px solid red;
+  }
+}

@@ -1,0 +1,14 @@
+.mobileMenu {
+  position: relative;
+
+  width: 100vw;
+  height: calc(100vh - 100px);
+
+  background-color: yellow;
+
+  // background-color: var(--secondaryBackgroundColor);
+
+  @media screen and (min-width: 991px) {
+    display: none;
+  }
+}
